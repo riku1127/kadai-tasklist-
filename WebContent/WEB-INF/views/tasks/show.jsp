@@ -6,7 +6,7 @@
 
         <h2>id : ${TaskList.id} のタスク詳細ページ</h2>
 
-        <p>メッセージ：<c:out value="${TaskList.content}" /></p>
+        <p>タスク：<c:out value="${TaskList.content}" /></p>
         <p>作成日時：<fmt:formatDate value="${TaskList.created_at}" pattern="yyyy-MM-dd HH:mm:ss" /></p>
         <p>更新日時：<fmt:formatDate value="${TaskList.updated_at}" pattern="yyyy-MM-dd HH:mm:ss" /></p>
 
